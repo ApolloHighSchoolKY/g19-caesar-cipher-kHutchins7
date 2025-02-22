@@ -18,6 +18,11 @@ public class G19 {
 
     	//Create a new cipher using the shifter(#) method
     	//Encrypt and decrypt a message with your new cipher
+		System.out.println("\n");
+		CaesarCipher cipher1 = new CaesarCipher(1);
+
+    	System.out.println(cipher1.encrypt("please work!"));
+    	System.out.println(cipher1.decrypt("bntkc cn!"));
 
     }
 
